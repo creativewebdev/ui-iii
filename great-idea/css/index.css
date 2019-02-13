@@ -63,4 +63,99 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+a {
+    text-decoration: none;
+    color: gray;
+}
+a:hover{
+    text-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+h2{
+    font-size: 60px;
+}
+button{
+    background-color: white;
+    padding: 5 20px 5 20px;
+    border: 1px solid black;
+}
+button:hover{
+    
+    background-color: black;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.container{
+    
+    width: 880px;
+    
+    
+}
+.container-home {
+    display:flex;
+    justify-content: center;
+}
+.header-nav {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+       
+}
+
+.header-lower {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    height: 500px;
+    align-items: center;
+    
+    
+}
+.header-lower .title{
+    align-self: center;
+    
+}
+.main-content .upper{
+   
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 20px;
+    padding: 20px 0 20px 0;
+    border-top: 1.5px solid black;
+    
+    
+}
+.main-content .lower{
+   display: flex;
+   margin: 40px 0;
+   border-bottom: 1.5px solid black;
+    
+    
+}
+.lower .text-content{
+    padding: 20px;
+}
+
+.footer{
+    padding: 20px;
+
+    } 
+}
+.footer address{
+    
+    margin: 20px 0;
+    
+    
+}
+.footer .phone{
+    margin: 20px 0;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+}
+
+
+
