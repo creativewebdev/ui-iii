@@ -203,6 +203,8 @@ li{
 .services-footer{
     display: flex;
     margin-top: 60px;
+    border-top: 2px solid gray;
+    padding-top: 40px;
     
 }
 .copyright{
