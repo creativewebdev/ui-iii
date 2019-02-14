@@ -202,9 +202,9 @@ li{
 
 .services-footer{
     display: flex;
-    margin-top: 60px;
+    margin-top: 20px;
     border-top: 2px solid gray;
-    padding-top: 40px;
+    padding-top: 30px;
     
 }
 .copyright{
